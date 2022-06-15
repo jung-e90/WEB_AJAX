@@ -16,10 +16,21 @@
         })
       })
     */
+/*
     function callbackme(){
       console.log('response end');
     }
-    fetch('html').then(callbackme);
+*/
+/*
+    callbackme = function(){
+      console.log('response end');
+    }
+*/
+    fetch('html').then(function(response){
+      console.log(response);
+    });
+    console.log('1');
+    console.log('2');
     ">
   </body>
 </html>
